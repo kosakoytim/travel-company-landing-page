@@ -1,0 +1,22 @@
+@import '~/assets/css/device.sass'
+
+$primary_color: #08aa8f
+$secondary_color: #08aa8f
+$primary_color_dark: #057764
+$primary_color_dark2: #035144
+
+.content
+    +desktop
+        margin-top: 5rem
+    +mobile
+        margin-top: 3rem
+    +tablet
+        margin-top: 4rem
+
+.container
+    +mobile
+        margin-left: 2rem
+        margin-right: 2rem
+
+input:focus
+    outline:none !important

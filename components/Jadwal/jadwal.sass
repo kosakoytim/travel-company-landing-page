@@ -1,0 +1,123 @@
+@import '~/assets/css/global.sass'
+@import '~/assets/css/device.sass'
+
+.hero
+    position: relative
+    margin-top: -16rem
+    height: 20rem
+    z-index: 10
+
+    .hero-body
+        .title-hero
+            font-size: 3rem
+            color: white
+
+            +mobile
+                font-size: 2rem
+
+        .subtitle-hero
+            color: white
+    
+.hero-bg-color
+    background: linear-gradient(to right, $primary_color_dark2 , $primary_color_dark)
+    position: relative
+    height: 20rem
+    margin-top: -20rem
+    opacity: 0.5
+    z-index: 9
+
+.parallax-container
+    height: 15rem !important
+    min-height: 15rem
+
+.hero-parallax
+    position: relative
+    height: 20rem
+    filter: grayscale(100%)
+    z-index: 8
+
+.title
+    color: white
+
+th,td
+    +mobile
+        font-size: 0.8rem
+
+
+.travelbox-iklan
+    background: #07ad85
+    border-radius: 1rem
+    margin-bottom: 6rem
+
+.iklan-content 
+    padding-left: 2rem
+    padding-right: 2rem
+    padding-top: 1rem
+    padding-bottom: 1rem
+
+    +mobile
+        text-align: center
+
+.iklan-logo-google-play 
+    text-align: right
+
+
+.image-logo
+    margin-top: 1rem
+    width: 200px
+
+    +mobile
+        width: 150px
+
+.image-googleplay
+    margin-top: 1rem
+    width: 130px
+
+.iklan-text-1 
+    color: white
+    font-size: 1.8rem
+    font-weight: bold
+
+    +mobile
+        font-size: 1.2rem
+
+.iklan-text-2
+    color: white
+    font-size: 1.3rem
+
+    +mobile
+        font-size: 1rem
+
+.container 
+    padding-top: 3rem
+
+.footnote-rute
+    font-style: italic
+
+    +mobile
+        margin-left: 2rem
+        margin-right: 2rem
+
+.rute
+    padding-top: 2rem
+    padding-bottom: 2rem
+
+.nama-rute
+    font-weight: bold
+    font-size: 1.2rem
+
+
+.table-rute
+    margin-top: 2rem
+    margin-bottom: 2rem
+
+.button-pesan-online 
+    float: right
+    color: white
+    background: $primary_color
+
+    +mobile 
+        float: right
+        margin-top: 3rem
+        margin-bottom: 1rem
+

@@ -1,0 +1,142 @@
+@import '~/assets/css/global.sass'
+@import '~/assets/css/device.sass'
+
+.hero
+    position: relative
+    margin-top: -18rem
+    height: 20rem
+    z-index: 10
+
+    .hero-body
+        .title-hero
+            font-size: 3rem
+            color: white
+
+            +mobile
+                font-size: 2rem
+
+        .subtitle-hero
+            color: white
+    
+.hero-bg-color
+    background: linear-gradient(to right, $primary_color_dark2 , $primary_color_dark)
+    position: relative
+    height: 20rem
+    margin-top: -20rem
+    opacity: 0.5
+    z-index: 9
+
+.parallax-container
+    height: 15rem !important
+    min-height: 15rem
+
+.hero-parallax
+    position: relative
+    height: 20rem
+    filter: grayscale(100%)
+    z-index: 8
+
+.section-title
+    margin-bottom: 2rem
+
+.cars-section
+
+    .cars-column
+        display: flex
+        flex-grow: 0
+        flex-wrap: wrap
+        flex-basis: auto
+
+        +mobile
+            display: inline
+
+        .cars-card
+            margin: 2rem
+            width: 20rem
+
+            +mobile
+                width: 100%
+                margin-left: 0rem
+                margin-top: 0rem
+        
+            .card-content
+
+.terms-contact-section
+    .pesan-whatsapp-button
+        margin-top: 2rem
+        display: flex
+        background: #11887A
+        border-radius: 10px
+        padding: 1rem
+        width: 23rem
+        height: 4rem
+        cursor: pointer
+
+        +mobile
+            width: 100%
+
+        .whatsapp-icon
+            margin-right: 1rem
+            height: 2rem
+            line-height: 30px
+
+        .whatsapp-text-button
+            color: white
+            font-size: 15px
+            line-height: 30px
+
+            +desktop
+                font-size: 20px
+                font-weight: bold
+            
+    .terms-point
+        display: flex
+
+    .terms-number
+        display: block
+        flex-basis: 0
+        flex-grow: 0
+        flex-shrink: 1
+        margin-right: 1rem
+
+        p
+            -webkit-margin-before: 0.2em
+            -webkit-margin-after: 0.2em
+
+    .terms-content
+        p
+            -webkit-margin-before: 0.2em
+            -webkit-margin-after: 0.2em
+
+
+.container
+    padding-top: 8rem
+
+    +mobile
+        padding-top: 4rem
+
+.modal
+    .whatsapp-icon
+        margin-right: 1rem
+        height: 1.3rem
+
+    .modal-card-title
+        margin-bottom: 0rem
+
+    .button-kirim
+        line-height: 10px
+
+    .modal-form
+        margin-bottom: 2rem
+
+    .modal-card
+        width: 1000px
+
+        +mobile
+            width: 100%
+
+select
+    width: 300px
+
+    +mobile
+        width: 100%

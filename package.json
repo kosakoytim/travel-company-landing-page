@@ -1,0 +1,31 @@
+{
+  "name": "TravelCompanyLandingPage",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "author": "Travelbox.id",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build && cp -a public/. functions/nuxt",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy-static": "nuxt generate && firebase deploy --only hosting",
+    "deploy-ssr": "nuxt build && cp -a public/. functions/nuxt && firebase deploy"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/bulma": "^1.2.0",
+    "bulma": "^0.7.1",
+    "cross-env": "^5.2.0",
+    "jquery-parallax.js": "^1.5.0",
+    "moment": "^2.22.2",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-carousel": "^0.14.0",
+    "vue-parallaxy": "^1.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.11.0"
+  }
+}
