@@ -18,8 +18,8 @@
     "bulma": "^0.7.1",
     "cross-env": "^5.2.0",
     "jquery-parallax.js": "^1.5.0",
-    "nuxt": "^2.0.0",
-    "sass-loader": "^7.1.0",
+    "nuxt": "^2.15.8",
+    "sass-loader": "^13.2.0",
     "vue-carousel": "^0.14.0",
     "vue-parallaxy": "^1.1.1"
   },
